@@ -1,13 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+    <style>
+        h1{
+            color:darkcyan;
+        }
+        h2{
+            color:darkcyan;
+        }
+        body{
+            color:darksalmon;
+        }
+        body{ 
+            background-color:lightpink;
+        }
+        #date{
+            color:aqua;font-style:italic;
+        }
+        .year{
+            color:hotpink;
+        }
+        .purple{
+            color:cornflowerblue;
+        }
+        .latest{
+            color:lightgreen;
+        }
+        table{
+            color:midnightblue;font-style:initial;background-color: bisque;
+        }
+        .title{
+            color:mediumpurple;font-style:unset;
+        }
+        p{
+            color:brown;
+        }
+        h1 style{
+            background-color: antiquewhite;
+        }
+        h1 style{
+            background-color: brown;
+        }
+        .antiquewhite{
+            background-color: antiquewhite;
+        }
+        .brown{
+            background-color: brown;
+        }
+        .pink{
+            background-color: fuchsia;
+        }
+        .blueviolet{
+            background-color: darkviolet;
+        }
+        .green{
+            background-color: greenyellow;
+        }
+
+
+    </style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Journey of Iphones</title>
+    <h1>The Journey of Iphones</h1>
 </head>
 <body>
     <ul>
-        <li style="color:antiquewhite;"><h1 style="background-color:aqua;">Iphone 1</h1></li>
+        <li class="green"><h1>Iphone 1</h1></li>
         <a href="https://www.macworld.com/article/186335/original-iphone-review-2.html">
         <img src="https://www.macworld.com/wp-content/uploads/2023/10/original-iphone-2007.jpg?resize=1200%2C800&quality=50&strip=all">
     </a>
@@ -16,7 +75,7 @@
          </p>
          <hr>
 
-        <li style="color:aquamarine;"><h1 style="background-color:blueviolet;">Iphone SE</h1></li>
+        <li class="blueviolet"><h1>Iphone SE</h1></li>
         <a href="https://www.apple.com/iphone-se/">
         <img src="https://www.apple.com/v/iphone-se/k/images/overview/durability/spills/spills_device__gnhuaoogn52e_large.jpg">
     </a>
@@ -25,7 +84,7 @@
         </p>
         <hr>
 
-        <li style="color:chocolate;"><h1 style="background-color:beige;">Iphone 8</h1></li>
+        <li class="pink"><h1>Iphone 8</h1></li>
         <a href="https://en.wikipedia.org/wiki/IPhone_8">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/IPhone_8_vector.svg/200px-IPhone_8_vector.svg.png">
     </a>
@@ -36,7 +95,7 @@
 
 
 
-        <li style="color:blanchedalmond;"><h1 style="background-color: brown;">Iphone X</h1></li>
+        <li class="brown"><h1>Iphone X</h1></li>
         <a href="https://en.wikipedia.org/wiki/IPhone_X">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/IPhone_X%2C_back_and_front%2C_Silver.png/220px-IPhone_X%2C_back_and_front%2C_Silver.png">
     </a>
@@ -46,7 +105,7 @@
         <hr>
 
 
-        <li style="color:blue;"><h1 style="background-color: antiquewhite;">Iphone 15 Pro</h1></li>
+        <li class="antiquewhite"><h1>Iphone 15 Pro</h1></li>
         <a href="https://www.apple.com/iphone-15-pro/">
         <img src="https://www.apple.com/v/iphone-15-pro/c/images/overview/camera/48mp_camera__cxq25ak34nau_large.jpg">
      </a>
@@ -55,36 +114,37 @@
          </p>
          <hr>
     </ul>
+    <h2>Iphone Data</h2>
     <table border="1xp solid black;">
         <tr>
-            <th>Name of Milestone</th>
-            <th>Information About Milestone</th>
-            <th>Date of Milestone</th>
+            <th class="title">Name of Milestone</th>
+            <th class="title">Information About Milestone</th>
+            <th class="title">Date of Milestone</th>
         </tr>
         <tr>
             <td>Iphone 1</td>
             <td>First Iphone Model and smartphone with the Apple Company.</td>
-            <td>2007</td>
+            <td class="year">2007</td>
         </tr>
         <tr>
             <td>Iphone SE</td>
             <td>Apple's 9th Generation Iphone. More higher end than the Iphone 6.</td>
-            <td>2016</td>
+            <td class="purple">2016</td>
         </tr>
         <tr>
             <td>Iphone 8</td>
             <td>Apple's 11th Generation Iphone, succeeding the Iphone 7.</td>
-            <td>2017</td>
+            <td id="date">2017</td>
         </tr>
         <tr>
             <td>Iphone X</td>
             <td>Apple's 11th Generation Iphone. "X" standing for 10 and skipping the Iphone 9.</td>
-            <td>2017</td>
+            <td id="date">2017</td>
         </tr>
         <tr>
             <td>Iphone 15 Pro</td>
             <td>Apple's latest Iphone and most expensive, costing $999. It includes a higher end 5x camera zoom and 256GB of storage.</td>
-            <td>2023</td>
+            <td class="latest">2023</td>
         </tr>
     </table>
 </body>
