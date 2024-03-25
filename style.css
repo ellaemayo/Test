@@ -1,0 +1,64 @@
+
+
+
+        h1{
+            color:darkcyan;
+        }
+        h2{
+            color:darkcyan;
+        }
+        body{
+            color:darksalmon;
+        }
+        body{ 
+            background-color:lightpink;
+        }
+        #date{
+            color:aqua;font-style:italic;
+        }
+        .year{
+            color:hotpink;
+        }
+        .purple{
+            color:cornflowerblue;
+        }
+        .latest{
+            color:lightgreen;
+        }
+        table{
+            color:midnightblue;font-style:initial;background-color: bisque;
+        }
+        .title{
+            color:mediumpurple;font-style:unset;
+        }
+        p{
+            color:brown;
+        }
+        h1 style{
+            background-color: antiquewhite;
+        }
+        h1 style{
+            background-color: brown;
+        }
+        .antiquewhite{
+            background-color: antiquewhite;
+        }
+        .brown{
+            background-color: brown;
+        }
+        .pink{
+            background-color: fuchsia;
+        }
+        .blueviolet{
+            background-color: darkviolet;
+        }
+        .green{
+            background-color: greenyellow;
+        }
+        title{ 
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+        }
+
