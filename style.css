@@ -92,3 +92,13 @@
             color:red;}
         .header:hover{
             color:skyblue;}
+
+            .navbar-custom .navbar-nav .nav-link {
+                color: #ffbb00;
+            }
+            .navbar-custom {
+                background-color: #7c76ac;
+            }
+             
+
+    
