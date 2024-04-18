@@ -99,20 +99,14 @@
             .navbar-custom {
                 background-color: #7c76ac;
             }
-           .col {
-                width: 25px;
-                height: 25px;
-            }
+           
             div.row div {
                 background-color:aquamarine;
-                height: 100px;
                 text-align: center;
                 border: 1px solid black;
             }
             
-            div.spacer {
-                height: 10px;
-            }
+          
              
 
     
